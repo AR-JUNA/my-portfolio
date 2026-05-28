@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arjuna Caleb Gyan | Software Engineering Student</title>
+  <meta name="description" content="Portfolio of Arjuna Caleb Gyan – Software Engineering student, NPCC Mauritius 2026 Finalist, seeking 6-month internship." />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.0/css/all.min.css" />
+  <!-- AOS Animation -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav id="navbar" class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">ACG<span class="dot">.</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#downloads">Downloads</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="admin.html" class="nav-admin-link"><i class="fas fa-lock"></i> Admin</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero" class="hero">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+      <p class="hero-greeting">Hello, I'm</p>
+      <h1 class="hero-name">Arjuna <span class="highlight">Gyan</span></h1>
+      <div class="hero-roles">
+        <span class="role-text" id="roleText"></span><span class="cursor">|</span>
+      </div>
+      <p class="hero-tagline">
+        Software Engineering Student · NPCC 2026 Finalist · AI & Fintech Enthusiast
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">
+          <i class="fas fa-rocket"></i> View My Work
+        </a>
+        <a href="#downloads" class="btn btn-outline">
+          <i class="fas fa-download"></i> Download Resume
+        </a>
+      </div>
+      <div class="hero-social">
+        <a href="mailto:a.gyan@alustudent.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        <a href="tel:+23055198492" aria-label="Phone"><i class="fas fa-phone"></i></a>
+        <a href="https://github.com/AR-JUNA" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/gyanarjuna0/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll Down</span>
+      <div class="scroll-arrow"><i class="fas fa-chevron-down"></i></div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Who I Am</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-avatar-wrap" data-aos="fade-right" data-aos-delay="100">
+          <div class="about-avatar">
+            <div class="avatar-initials">ACG</div>
+            <div class="avatar-ring ring-1"></div>
+            <div class="avatar-ring ring-2"></div>
+          </div>
+          <div class="about-badge">
+            <i class="fas fa-trophy"></i>
+            <span>NPCC 2026 Finalist</span>
+          </div>
+        </div>
+        <div class="about-content" data-aos="fade-left" data-aos-delay="200">
+          <p class="about-intro">
+            I'm a <strong>junior software engineer</strong> with experience in <strong>finance</strong> and 
+            <strong>AI‑driven solutions</strong>. Finalist in the <strong>2026 NPCC Mauritius Challenge</strong> 
+            for an AI‑based business innovation concept.
+          </p>
+          <p>
+            Currently pursuing my <strong>BSc. Software Engineering</strong> at the African Leadership College 
+            of Higher Education in Mauritius. I'm passionate about building products that create real impact — 
+            from fintech dashboards to educational platforms.
+          </p>
+          <p>
+            I'm actively seeking a <strong>4-6 month internship</strong> to support impactful, innovative products 
+            while gaining hands‑on industry experience. I thrive in collaborative, agile environments where I 
+            can contribute meaningfully from day one.
+          </p>
+          <div class="about-info-grid">
+            <div class="info-item">
+              <i class="fas fa-user"></i>
+              <div>
+                <span class="info-label">Full Name</span>
+                <span class="info-value">Arjuna Caleb Gyan</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <span class="info-label">Location</span>
+                <span class="info-value">Pamplemousses, Mauritius</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <span class="info-label">Email</span>
+                <span class="info-value">a.gyan@alustudent.com</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <span class="info-label">Phone</span>
+                <span class="info-value">+230 5519 8492</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-graduation-cap"></i>
+              <div>
+                <span class="info-label">Current Role</span>
+                <span class="info-value">Software Engineering Student</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-briefcase"></i>
+              <div>
+                <span class="info-label">Availability</span>
+                <span class="info-value available">Open for Internship (4 - 6 months)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section id="education" class="section education-section bg-alt">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Academic Background</span>
+        <h2 class="section-title">Education</h2>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+          <div class="timeline-icon"><i class="fas fa-university"></i></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <h3>BSc. Software Engineering</h3>
+              <span class="timeline-badge current">Current</span>
+            </div>
+            <p class="timeline-place">
+              <i class="fas fa-map-pin"></i>
+              African Leadership College of Higher Education (ALCHE) — Pamplemousses, Mauritius
+            </p>
+            <p class="timeline-date"><i class="fas fa-calendar-alt"></i> 2025 – Present</p>
+            <p class="timeline-desc">
+              Pursuing a Bachelor's degree in Software Engineering with focus on full-stack development,
+              data structures, AI integration, and product management. Active member of the ALCHE Wall Street 
+              Investment Society.
+            </p>
+            <div class="timeline-tags">
+              <span>Software Engineering</span>
+              <span>AI/ML</span>
+              <span>Web Development</span>
+              <span>Data Structures</span>
+              <span>Agile</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+          <div class="timeline-icon"><i class="fas fa-flask"></i></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <h3>Diploma – Data Science</h3>
+              <span class="timeline-badge completed">Completed 2026</span>
+            </div>
+            <p class="timeline-place">
+              <i class="fas fa-globe"></i>
+              WorldQuant University — Remote
+            </p>
+            <p class="timeline-date"><i class="fas fa-calendar-alt"></i> Completed 2026</p>
+            <p class="timeline-desc">
+              Applied Data Science programme covering statistical analysis, machine learning, 
+              Python programming, and real-world data projects through WorldQuant University's 
+              Applied Data Science Lab.
+            </p>
+            <div class="timeline-tags">
+              <span>Python</span>
+              <span>Machine Learning</span>
+              <span>Data Analysis</span>
+              <span>Statistics</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+          <div class="timeline-icon"><i class="fas fa-code"></i></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <h3>Diploma – Software Engineering</h3>
+              <span class="timeline-badge">Completed</span>
+            </div>
+            <p class="timeline-place">
+              <i class="fas fa-map-pin"></i>
+              IPMC University College — Ghana
+            </p>
+            <p class="timeline-date"><i class="fas fa-calendar-alt"></i> Completed</p>
+            <p class="timeline-desc">
+              Comprehensive software engineering diploma covering programming fundamentals, 
+              object-oriented design, database systems, and software development lifecycle practices.
+            </p>
+            <div class="timeline-tags">
+              <span>OOP</span>
+              <span>Databases</span>
+              <span>SDLC</span>
+              <span>C++</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section skills-section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">What I Know</span>
+        <h2 class="section-title">Skills & Expertise</h2>
+      </div>
+
+      <div class="skills-grid">
+
+        <!-- Technical Skills -->
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon"><i class="fas fa-code"></i></div>
+            <h3>Technical Skills</h3>
+          </div>
+          <div class="skill-bars">
+            <div class="skill-bar-item">
+              <div class="skill-bar-label">
+                <span>JavaScript, HTML & CSS</span><span class="skill-pct">95%</span>
+              </div>
+              <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="95"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label">
+                <span>Git & Version Control</span><span class="skill-pct">75%</span>
+              </div>
+              <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="75"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label">
+                <span>Debugging & Testing</span><span class="skill-pct">70%</span>
+              </div>
+              <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="70"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label">
+                <span>Python & C++</span><span class="skill-pct">65%</span>
+              </div>
+              <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="65"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label">
+                <span>Object‑Oriented Programming</span><span class="skill-pct">65%</span>
+              </div>
+              <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="65"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label">
+                <span>REST API & MySQL</span><span class="skill-pct">60%</span>
+              </div>
+              <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="60"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label">
+                <span>Data Structures & Algorithms</span><span class="skill-pct">50%</span>
+              </div>
+              <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="50"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-label">
+                <span>AWS Cloud</span><span class="skill-pct">40%</span>
+              </div>
+              <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="40"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tools & Frameworks -->
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon"><i class="fas fa-tools"></i></div>
+            <h3>Tools & Frameworks</h3>
+          </div>
+          <div class="skills-tags-grid">
+            <span class="skill-tag"><i class="fab fa-git-alt"></i> Git & GitHub</span>
+            <span class="skill-tag"><i class="fab fa-python"></i> Python</span>
+            <span class="skill-tag"><i class="fab fa-js"></i> JavaScript</span>
+            <span class="skill-tag"><i class="fab fa-aws"></i> AWS</span>
+            <span class="skill-tag"><i class="fas fa-database"></i> MySQL</span>
+            <span class="skill-tag"><i class="fas fa-code-branch"></i> REST APIs</span>
+            <span class="skill-tag"><i class="fas fa-chart-bar"></i> Data Analysis</span>
+            <span class="skill-tag"><i class="fas fa-robot"></i> Generative AI</span>
+            <span class="skill-tag"><i class="fab fa-figma"></i> Figma</span>
+            <span class="skill-tag"><i class="fas fa-users-cog"></i> Agile / Scrum</span>
+          </div>
+        </div>
+
+        <!-- Soft Skills -->
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon"><i class="fas fa-users"></i></div>
+            <h3>Soft Skills</h3>
+          </div>
+          <div class="soft-skills-grid">
+            <div class="soft-skill-item">
+              <div class="soft-skill-icon"><i class="fas fa-users"></i></div>
+              <span>Team Collaboration</span>
+            </div>
+            <div class="soft-skill-item">
+              <div class="soft-skill-icon"><i class="fas fa-comments"></i></div>
+              <span>Communication</span>
+            </div>
+            <div class="soft-skill-item">
+              <div class="soft-skill-icon"><i class="fas fa-handshake"></i></div>
+              <span>Stakeholder Engagement</span>
+            </div>
+            <div class="soft-skill-item">
+              <div class="soft-skill-icon"><i class="fas fa-sync-alt"></i></div>
+              <span>Agile Collaboration</span>
+            </div>
+            <div class="soft-skill-item">
+              <div class="soft-skill-icon"><i class="fas fa-lightbulb"></i></div>
+              <span>Problem Solving</span>
+            </div>
+            <div class="soft-skill-item">
+              <div class="soft-skill-icon"><i class="fas fa-chess-king"></i></div>
+              <span>Leadership</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Languages -->
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon"><i class="fas fa-globe"></i></div>
+            <h3>Languages</h3>
+          </div>
+          <div class="lang-grid">
+            <div class="lang-item">
+              <div class="lang-circle">
+                <svg viewBox="0 0 36 36">
+                  <circle class="lang-bg" cx="18" cy="18" r="15.9"/>
+                  <circle class="lang-fg" cx="18" cy="18" r="15.9" style="stroke-dasharray: 98 100"/>
+                </svg>
+                <span class="lang-pct-text">98%</span>
+              </div>
+              <span class="lang-name">Twi</span>
+              <span class="lang-level">Native</span>
+            </div>
+            <div class="lang-item">
+              <div class="lang-circle">
+                <svg viewBox="0 0 36 36">
+                  <circle class="lang-bg" cx="18" cy="18" r="15.9"/>
+                  <circle class="lang-fg" cx="18" cy="18" r="15.9" style="stroke-dasharray: 95 100"/>
+                </svg>
+                <span class="lang-pct-text">95%</span>
+              </div>
+              <span class="lang-name">English</span>
+              <span class="lang-level">Expert</span>
+            </div>
+            <div class="lang-item">
+              <div class="lang-circle">
+                <svg viewBox="0 0 36 36">
+                  <circle class="lang-bg" cx="18" cy="18" r="15.9"/>
+                  <circle class="lang-fg" cx="18" cy="18" r="15.9" style="stroke-dasharray: 30 100"/>
+                </svg>
+                <span class="lang-pct-text">30%</span>
+              </div>
+              <span class="lang-name">French</span>
+              <span class="lang-level">Beginner</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience" class="section experience-section bg-alt">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">My Journey</span>
+        <h2 class="section-title">Experience & Activities</h2>
+      </div>
+      <div class="exp-grid">
+
+        <div class="exp-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="exp-icon pm-icon"><i class="fas fa-chart-line"></i></div>
+          <div class="exp-body">
+            <span class="exp-badge">Product Management</span>
+            <h3>Product Manager Intern</h3>
+            <p class="exp-org">PARKLY Innovations Limited</p>
+            <p class="exp-period"><i class="fas fa-calendar-alt"></i> Jul 2025 – Dec 2025</p>
+            <ul class="exp-points">
+              <li>Market research &amp; business validation for a parking tech platform</li>
+              <li>Investor fundraising support → over <strong>$7,000 raised</strong></li>
+              <li>Stakeholder coordination with La Plage Factory and partners</li>
+              <li>Platform optimisation → increased user engagement by <strong>40%</strong></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="exp-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="exp-icon dev"><i class="fas fa-laptop-code"></i></div>
+          <div class="exp-body">
+            <span class="exp-badge">Development</span>
+            <h3>Software Developer (Freelance)</h3>
+            <p class="exp-org">Self‑employed</p>
+            <p class="exp-period"><i class="fas fa-calendar-alt"></i> May 2025 – Sep 2025</p>
+            <ul class="exp-points">
+              <li>Collaborated with <strong>5+ clients</strong> to define product functionality</li>
+              <li>Built responsive apps with Python, JS, HTML/CSS &amp; C++</li>
+              <li>Reduced rework by <strong>40%</strong> via iterative feedback loops</li>
+              <li>Performance optimisation through debugging &amp; testing</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="exp-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="exp-icon design"><i class="fas fa-university"></i></div>
+          <div class="exp-body">
+            <span class="exp-badge">Leadership</span>
+            <h3>Secretary – Wall Street Investment Society</h3>
+            <p class="exp-org">ALCHE Wall Street Investment Society</p>
+            <p class="exp-period"><i class="fas fa-calendar-alt"></i> March 2026 – Present</p>
+            <ul class="exp-points">
+              <li>Facilitated <strong>10+ investment sessions</strong> for 35+ students</li>
+              <li>Topics: venture capital, financial markets, startup evaluation</li>
+              <li>Organised speaker sessions &amp; market simulation workshops</li>
+              <li>Built a community of emerging finance &amp; tech leaders</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section projects-section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">What I've Built</span>
+        <h2 class="section-title">Projects</h2>
+      </div>
+
+      <div class="projects-filter" data-aos="fade-up" data-aos-delay="100">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="fintech">Fintech</button>
+        <button class="filter-btn" data-filter="web">Web Dev</button>
+        <button class="filter-btn" data-filter="ai">AI / ML</button>
+        <button class="filter-btn" data-filter="education">Education</button>
+        <button class="filter-btn" data-filter="product">Product</button>
+      </div>
+
+      <div class="projects-grid">
+
+        <article class="project-card" data-category="fintech" data-aos="fade-up" data-aos-delay="100">
+          <div class="project-header">
+            <div class="project-icon fintech-icon"><i class="fas fa-mobile-alt"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/AR-JUNA/momo-transaction-tracker.git" target="_blank" rel="noopener" class="proj-link" title="View on GitHub"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>MoMo Transaction Analytics Dashboard</h3>
+            <p>Real‑time mobile money transaction dashboard with advanced filtering, transaction tracking, and detailed reporting features for financial data insights.</p>
+            <div class="project-tags">
+              <span>JavaScript</span><span>REST API</span><span>MySQL</span><span>Charts</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="web" data-aos="fade-up" data-aos-delay="150">
+          <div class="project-header">
+            <div class="project-icon web-icon"><i class="fas fa-route"></i></div>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener" class="proj-link" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+              <a href="https://github.com/AR-JUNA/TechPath-Finder.git" target="_blank" rel="noopener" class="proj-link" title="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>TechPath Finder</h3>
+            <p>Interactive career assessment platform with dynamic quiz logic and personalised tech career recommendations — built for students entering the tech industry.</p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>UX Design</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="education" data-aos="fade-up" data-aos-delay="200">
+          <div class="project-header">
+            <div class="project-icon edu-icon"><i class="fas fa-graduation-cap"></i></div>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener" class="proj-link" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+              <a href="https://github.com/AR-JUNA/edu-access.git" target="_blank" rel="noopener" class="proj-link" title="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Edu Access</h3>
+            <p>Accessibility‑focused educational platform landing page for a non‑profit organisation — designed with inclusive UX principles and mobile‑first responsiveness.</p>
+            <div class="project-tags">
+              <span>HTML5</span><span>CSS3</span><span>Accessibility</span><span>Non-Profit</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="ai" data-aos="fade-up" data-aos-delay="250">
+          <div class="project-header">
+            <div class="project-icon ai-icon"><i class="fas fa-brain"></i></div>
+            <div class="project-links">
+              <span class="proj-link proj-internal" title="Internal Project"><i class="fas fa-lock"></i></span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>AI Business Concept – NPCC 2026</h3>
+            <p>AI‑driven solution for <strong>Efficient Businesses &amp; Smart Cities</strong> — developed for the NPCC Mauritius Challenge 2026. <strong>Finalist</strong> selected from nationwide submissions.</p>
+            <div class="project-tags">
+              <span>AI/ML</span><span>Smart Cities</span><span>NPCC Finalist</span><span>Innovation</span>
+            </div>
+          </div>
+        </article>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATIONS ===== -->
+  <section id="certifications" class="section certs-section bg-alt">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Achievements</span>
+        <h2 class="section-title">Certifications & Awards</h2>
+      </div>
+      <div class="certs-grid">
+
+        <div class="cert-card featured" data-aos="fade-up" data-aos-delay="100">
+          <div class="cert-ribbon">🏆 Featured</div>
+          <div class="cert-icon ncc-cert"><i class="fas fa-medal"></i></div>
+          <div class="cert-body">
+            <h3>Certificate of Achievement – NPCC Mauritius</h3>
+            <p class="cert-issuer"><i class="fas fa-award"></i> NPCC Mauritius Challenge 2026</p>
+            <p class="cert-date"><i class="fas fa-calendar"></i> May 2026</p>
+            <p class="cert-desc">
+              Project: <strong>CWAS / AIE Startups – Boosting NexGen Entrepreneurs</strong>. 
+              Selected as Finalist in the national AI‑based business innovation challenge, 
+              demonstrating excellence in smart business and city innovation.
+            </p>
+            <span class="cert-badge">NPCC Finalist</span>
+            <span class="cert-badge">AI Innovation</span>
+            <span class="cert-badge">Smart Cities</span>
+          </div>
+        </div>
+
+        <div class="cert-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="cert-icon py-cert"><i class="fas fa-flask"></i></div>
+          <div class="cert-body">
+            <h3>Applied Data Science Lab</h3>
+            <p class="cert-issuer"><i class="fas fa-award"></i> WorldQuant University</p>
+            <p class="cert-date"><i class="fas fa-calendar"></i> 2026</p>
+            <p class="cert-desc">
+              Hands-on data science programme covering Python, ML models, 
+              statistical analysis, and real-world project delivery.
+            </p>
+            <span class="cert-badge">Python</span>
+            <span class="cert-badge">Machine Learning</span>
+          </div>
+        </div>
+
+        <div class="cert-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="cert-icon amazon-cert"><i class="fab fa-aws"></i></div>
+          <div class="cert-body">
+            <h3>Introduction to Software Development</h3>
+            <p class="cert-issuer"><i class="fas fa-award"></i> Amazon</p>
+            <p class="cert-date"><i class="fas fa-calendar"></i> 2025</p>
+            <p class="cert-desc">
+              Foundational software development certification covering core 
+              programming concepts, version control, and development best practices.
+            </p>
+            <span class="cert-badge">Software Dev</span>
+            <span class="cert-badge">Amazon</span>
+          </div>
+        </div>
+
+        <div class="cert-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="cert-icon alx-cert"><i class="fas fa-robot"></i></div>
+          <div class="cert-body">
+            <h3>ALX AICE – AI Career Essentials</h3>
+            <p class="cert-issuer"><i class="fas fa-award"></i> ALX Africa</p>
+            <p class="cert-date"><i class="fas fa-calendar"></i> 2025</p>
+            <p class="cert-desc">
+              AI career essentials programme covering practical AI tools, 
+              prompt engineering, and AI integration in professional workflows.
+            </p>
+            <span class="cert-badge">AI Essentials</span>
+            <span class="cert-badge">ALX Africa</span>
+          </div>
+        </div>
+
+        <div class="cert-card" data-aos="fade-up" data-aos-delay="500">
+          <div class="cert-icon db-cert"><i class="fas fa-database"></i></div>
+          <div class="cert-body">
+            <h3>Databases & SQL for Data Science</h3>
+            <p class="cert-issuer"><i class="fas fa-award"></i> IBM (Coursera)</p>
+            <p class="cert-date"><i class="fas fa-calendar"></i> 2025</p>
+            <p class="cert-desc">
+              SQL and relational databases for data science — covering queries, 
+              joins, stored procedures, and Python-SQL integration with IBM tools.
+            </p>
+            <span class="cert-badge">SQL</span>
+            <span class="cert-badge">IBM</span>
+          </div>
+        </div>
+
+        <div class="cert-card" data-aos="fade-up" data-aos-delay="600">
+          <div class="cert-icon ux-cert"><i class="fas fa-pencil-ruler"></i></div>
+          <div class="cert-body">
+            <h3>Principles of UX/UI Design</h3>
+            <p class="cert-issuer"><i class="fas fa-award"></i> Meta (Coursera)</p>
+            <p class="cert-date"><i class="fas fa-calendar"></i> 2025</p>
+            <p class="cert-desc">
+              UX/UI design fundamentals: user research, wireframing, prototyping, 
+              accessibility, and Figma‑based design systems — Meta certification.
+            </p>
+            <span class="cert-badge">UX/UI</span>
+            <span class="cert-badge">Meta</span>
+            <span class="cert-badge">Figma</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Extra certs note -->
+      <div class="extra-certs" data-aos="fade-up" data-aos-delay="200">
+        <p><i class="fas fa-plus-circle"></i> Also holds: <strong>Generative AI for Data Engineering</strong> (IBM) · <strong>Generative AI Mastermind</strong> (Outskill)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DOWNLOADS ===== -->
+  <section id="downloads" class="section downloads-section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Documents</span>
+        <h2 class="section-title">Downloads</h2>
+        <p class="section-subtitle">Access my resume and support letter below</p>
+      </div>
+      <div class="downloads-grid">
+
+        <div class="download-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="download-preview">
+            <div class="doc-preview resume-preview">
+              <i class="fas fa-file-pdf"></i>
+              <div class="doc-lines">
+                <div class="doc-line long"></div>
+                <div class="doc-line short"></div>
+                <div class="doc-line medium"></div>
+                <div class="doc-line long"></div>
+                <div class="doc-line short"></div>
+              </div>
+            </div>
+          </div>
+          <div class="download-info">
+            <div class="download-icon"><i class="fas fa-file-alt"></i></div>
+            <div>
+              <h3>Curriculum Vitae</h3>
+              <p>Full resume including education, skills, projects, and certifications — ready for employers and internship applications.</p>
+              <span class="file-meta"><i class="fas fa-file-pdf"></i> PDF Format &nbsp;|&nbsp; <i class="fas fa-clock"></i> Updated 2025</span>
+            </div>
+          </div>
+          <div class="download-actions">
+            <a href="./assets/Arjuna_Gyan_Resume.pdf" download="Arjuna_Caleb_Gyan_Resume.pdf" class="btn btn-primary download-btn">
+              <i class="fas fa-download"></i> Download Resume
+            </a>
+            <a href="./assets/Arjuna_Gyan_Resume.pdf" target="_blank" class="btn btn-outline view-btn">
+              <i class="fas fa-eye"></i> View Online
+            </a>
+          </div>
+        </div>
+
+        <div class="download-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="download-preview">
+            <div class="doc-preview support-preview">
+              <i class="fas fa-file-alt"></i>
+              <div class="doc-lines">
+                <div class="doc-line long"></div>
+                <div class="doc-line short"></div>
+                <div class="doc-line long"></div>
+                <div class="doc-line medium"></div>
+                <div class="doc-line long"></div>
+                <div class="doc-line short"></div>
+              </div>
+            </div>
+          </div>
+          <div class="download-info">
+            <div class="download-icon support-icon"><i class="fas fa-envelope-open-text"></i></div>
+            <div>
+              <h3>Support Letter</h3>
+              <p>Official support/recommendation letter from college authorities endorsing academic performance, character, and professional achievements.</p>
+              <span class="file-meta"><i class="fas fa-file-pdf"></i> PDF Format &nbsp;|&nbsp; <i class="fas fa-university"></i> Issued by College</span>
+            </div>
+          </div>
+          <div class="download-actions">
+            <a href="./assets/Support Letter.pdf" download="Arjuna_Caleb_Gyan_Support_Letter.pdf" class="btn btn-secondary download-btn">
+              <i class="fas fa-download"></i> Download Letter
+            </a>
+            <a href="./assets/Support Letter.pdf" target="_blank" class="btn btn-outline view-btn">
+              <i class="fas fa-eye"></i> View Online
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Contact Me</h2>
+        <p class="section-subtitle">Have an internship opportunity or want to collaborate? I'd love to hear from you. </p>
+      </div>
+      <div class="contact-grid">
+
+        <div class="contact-info" data-aos="fade-right" data-aos-delay="100">
+          <h3>Let's Connect</h3>
+          <p>I'm currently open to <strong>4 - 6 month internship</strong> opportunities in software engineering, product management, or fintech. Whether it's a quick question or a full collaboration — reach out!</p>
+
+          <div class="contact-items">
+            <a href="mailto:a.gyan@alustudent.com" class="contact-item">
+              <div class="ci-icon email-ci"><i class="fas fa-envelope"></i></div>
+              <div>
+                <span class="ci-label">Email</span>
+                <span class="ci-value">a.gyan@alustudent.com</span>
+              </div>
+            </a>
+            <a href="tel:+23055198492" class="contact-item">
+              <div class="ci-icon phone-ci"><i class="fas fa-phone"></i></div>
+              <div>
+                <span class="ci-label">Phone</span>
+                <span class="ci-value">+230 5519 8492</span>
+              </div>
+            </a>
+            <div class="contact-item">
+              <div class="ci-icon loc-ci"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <span class="ci-label">Location</span>
+                <span class="ci-value">Pamplemousses, Mauritius</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-socials">
+            <a href="mailto:a.gyan@alustudent.com" class="social-btn email-btn" aria-label="Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://github.com/AR-JUNA" target="_blank" rel="noopener" class="social-btn github-btn" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/gyanarjuna0/" target="_blank" rel="noopener" class="social-btn linkedin-btn" aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="tel:+23055198492" class="social-btn phone-btn" aria-label="Phone">
+              <i class="fas fa-phone"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Contact Form → sends via Formspree to a.gyan@alustudent.com -->
+        <form class="contact-form" id="contactForm" data-aos="fade-left" data-aos-delay="200" novalidate>
+          <div class="form-group">
+            <label for="contactName">Your Name *</label>
+            <input type="text" id="contactName" name="name" placeholder="e.g. Jane Smith" required />
+            <span class="form-error" id="nameError"></span>
+          </div>
+          <div class="form-group">
+            <label for="contactEmail">Email Address *</label>
+            <input type="email" id="contactEmail" name="email" placeholder="your@email.com" required />
+            <span class="form-error" id="emailError"></span>
+          </div>
+          <div class="form-group">
+            <label for="contactSubject">Subject</label>
+            <input type="text" id="contactSubject" name="subject" placeholder="e.g. Internship Opportunity" />
+          </div>
+          <div class="form-group">
+            <label for="contactMessage">Message *</label>
+            <textarea id="contactMessage" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+            <span class="form-error" id="msgError"></span>
+          </div>
+          <button type="submit" class="btn btn-primary submit-btn">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+          <div class="form-success" id="formSuccess">
+            <i class="fas fa-check-circle"></i> Message sent! Arjuna will reply soon.
+          </div>
+          <div class="form-error-global" id="formErrorGlobal"></div>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#hero" class="footer-logo">ACG<span class="dot">.</span></a>
+          <p>Software Engineering Student | NPCC 2026 Finalist</p>
+          <p>Seeking 4- 6 month internship in software / fintech / AI</p>
+          <p class="footer-email"><i class="fas fa-envelope"></i> a.gyan@alustudent.com</p>
+        </div>
+        <div class="footer-nav">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#downloads">Downloads</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <p><i class="fas fa-envelope"></i> a.gyan@alustudent.com</p>
+          <p><i class="fas fa-phone"></i> +230 5519 8492</p>
+          <p><i class="fas fa-map-marker-alt"></i> Pamplemousses, Mauritius</p>
+          <div class="footer-socials">
+            <a href="mailto:a.gyan@alustudent.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            <a href="https://github.com/AR-JUNA" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/gyanarjuna0/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Arjuna Caleb Gyan.</p>
+        <a href="#hero" class="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- AOS Library -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
